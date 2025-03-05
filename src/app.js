@@ -5,7 +5,7 @@ import cors from 'cors';
 
 const app = express();
 
-// use method is used for all the middlware or configurations
+// app.use method is used for all the middlware or configurations
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
     credentials: true
